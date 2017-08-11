@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CWQLinkingLabel_Example' do
+  pod 'CWQLinkingLabel', :path => '../'
+
+  target 'CWQLinkingLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
