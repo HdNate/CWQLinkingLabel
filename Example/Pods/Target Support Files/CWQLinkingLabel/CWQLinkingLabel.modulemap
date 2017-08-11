@@ -1,0 +1,6 @@
+framework module CWQLinkingLabel {
+  umbrella header "CWQLinkingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

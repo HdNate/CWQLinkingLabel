@@ -1,0 +1,16 @@
+PODS:
+  - CWQLinkingLabel (0.1.0)
+
+DEPENDENCIES:
+  - CWQLinkingLabel (from `../`)
+
+EXTERNAL SOURCES:
+  CWQLinkingLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CWQLinkingLabel: 73798f526d68c6525b9d09493397a9e046cb47b1
+
+PODFILE CHECKSUM: e93c5e05416ca2e900a24d2b0b1aa6117d055796
+
+COCOAPODS: 1.3.1
