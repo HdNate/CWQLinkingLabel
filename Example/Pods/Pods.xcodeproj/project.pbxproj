@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		24509C4F14476E26F6E8B2CAFA321884 /* Pods-CWQLinkingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B74B03BCB824A81F634C1282EA78D65D /* Pods-CWQLinkingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4793A423F1243FBA040DFCF1DC855433 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC65A6EA735584D5D7C3D4B76A534E /* ReplaceMe.swift */; };
+		3E45D6F6FFC11B7A80CE5E70BDD5CF21 /* CWQLinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6427DD6664B3B3C7479722C32BA15F /* CWQLinkingLabel.swift */; };
+		4A52B213D81F7ED542118EC74191FE62 /* CWQLinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9194391305DEC9993CE99F9CCE8B7E /* CWQLinkingLabel-dummy.m */; };
 		50407A9D278B3C02889709DC3BF22AF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5A0B5D707DDA3F682BADDAAC59E3FB1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6ADC7B79B4DADA29CF9D80FA7911ABC7 /* CWQLinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D2CC28B97F686E69751ADD25AAEC00 /* CWQLinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADC7B79B4DADA29CF9D80FA7911ABC7 /* CWQLinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53940A8395DDC67580FD8F52A1765B85 /* CWQLinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88DDBD4AFFCB0238F3543B3D09B51740 /* Pods-CWQLinkingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4630120261DE0722D7827BBDD5E9692B /* Pods-CWQLinkingLabel_Tests-dummy.m */; };
 		B391AB472BECE8A9C4E2F955669DA04D /* Pods-CWQLinkingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C01996C46A0238C495B9CF20D8123627 /* Pods-CWQLinkingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE50E7B7219C9A045E174F68BB85FCD1 /* CWQLinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D379355329776E10DEFAD7F5E67291 /* CWQLinkingLabel-dummy.m */; };
 		DE256D6529E25BC5EF8419B44EDB9803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F2D6256D3E1A0CBFDE6D03CF0520BE9D /* Pods-CWQLinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DB69338BD6CC3CC92D910F9631C999 /* Pods-CWQLinkingLabel_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -35,30 +35,30 @@
 		16CBE67BCB9BBCD7D97833F0D888B3C9 /* CWQLinkingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CWQLinkingLabel.framework; path = CWQLinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACC9340EA826B70A929281A5B0D2C33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2481AB511B7ACF545A01EE0C00C99130 /* Pods-CWQLinkingLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CWQLinkingLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
-		299DAD9E77FDFD7BFA82A6B9115CF562 /* CWQLinkingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CWQLinkingLabel.modulemap; sourceTree = "<group>"; };
+		307CFEED5D89D8940383ACA4DEEE4CCA /* CWQLinkingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWQLinkingLabel-prefix.pch"; sourceTree = "<group>"; };
 		36DABB7C7AC70364BEF1DCF5345029B5 /* Pods-CWQLinkingLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CWQLinkingLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4630120261DE0722D7827BBDD5E9692B /* Pods-CWQLinkingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CWQLinkingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		4D07A46A4BB44AB33AC5E97E2E1C174A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6427DD6664B3B3C7479722C32BA15F /* CWQLinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CWQLinkingLabel.swift; path = CWQLinkingLabel/Classes/CWQLinkingLabel.swift; sourceTree = "<group>"; };
 		4E7A47530CF4A5286EB47D020CF6E49E /* Pods-CWQLinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CWQLinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		53940A8395DDC67580FD8F52A1765B85 /* CWQLinkingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWQLinkingLabel-umbrella.h"; sourceTree = "<group>"; };
+		5C9194391305DEC9993CE99F9CCE8B7E /* CWQLinkingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWQLinkingLabel-dummy.m"; sourceTree = "<group>"; };
 		6315684B1F46862F4AA28E46FF677643 /* Pods-CWQLinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CWQLinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68D379355329776E10DEFAD7F5E67291 /* CWQLinkingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWQLinkingLabel-dummy.m"; sourceTree = "<group>"; };
 		792C487167BAB33DAEAD62930F816A83 /* Pods-CWQLinkingLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CWQLinkingLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		81425C8EE9D35E0D8496BD2226B20D5B /* CWQLinkingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWQLinkingLabel.xcconfig; sourceTree = "<group>"; };
 		88599B2115EE1A98F9977F8261C990F1 /* Pods-CWQLinkingLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CWQLinkingLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		89B69EBE350DB3A23889C06915F5E1B3 /* Pods-CWQLinkingLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CWQLinkingLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94D2CC28B97F686E69751ADD25AAEC00 /* CWQLinkingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWQLinkingLabel-umbrella.h"; sourceTree = "<group>"; };
 		99177B94FE5F999B48D240F180A50F74 /* Pods-CWQLinkingLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CWQLinkingLabel_Example-resources.sh"; sourceTree = "<group>"; };
 		A50307BE6A4E6BA69594EBF815E20093 /* Pods-CWQLinkingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CWQLinkingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A666DCFCDD5D6F90C6128670B7717AE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B74B03BCB824A81F634C1282EA78D65D /* Pods-CWQLinkingLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CWQLinkingLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BA680A3104DBF0920A97DB3F18F471C9 /* Pods_CWQLinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CWQLinkingLabel_Example.framework; path = "Pods-CWQLinkingLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC81CBF449EE906244FC9057EDC3FDCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01996C46A0238C495B9CF20D8123627 /* Pods-CWQLinkingLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CWQLinkingLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		C2E96C6AE5F46C47E24CD0703DE0126D /* Pods-CWQLinkingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CWQLinkingLabel_Example.modulemap"; sourceTree = "<group>"; };
-		C7202C16BF2439094C5795CBB56CB5C3 /* CWQLinkingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWQLinkingLabel.xcconfig; sourceTree = "<group>"; };
+		C744EFB4E7635378A3783E195D3AB093 /* CWQLinkingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CWQLinkingLabel.modulemap; sourceTree = "<group>"; };
 		CC4F935341BA98E75BD8BACF8B68DBA4 /* Pods_CWQLinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CWQLinkingLabel_Tests.framework; path = "Pods-CWQLinkingLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D23AD9F69C92DDADC9BAFEE7F52C6A2B /* CWQLinkingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWQLinkingLabel-prefix.pch"; sourceTree = "<group>"; };
-		E8AC65A6EA735584D5D7C3D4B76A534E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CWQLinkingLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		EA3A7D67741145795A2F370A2F591503 /* Pods-CWQLinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CWQLinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EB6C0131B2326C1352DEA0DEAEE47D92 /* Pods-CWQLinkingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CWQLinkingLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		F8DB69338BD6CC3CC92D910F9631C999 /* Pods-CWQLinkingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CWQLinkingLabel_Example-dummy.m"; sourceTree = "<group>"; };
@@ -102,28 +102,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4278E162E9823C640CE0B4B08237AB25 /* CWQLinkingLabel */ = {
+		395FB3EF63A57B4C6EC8621B9F745DB6 /* CWQLinkingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				E8AC65A6EA735584D5D7C3D4B76A534E /* ReplaceMe.swift */,
-				43BFE8D26068D97F9033994933BD76DD /* Support Files */,
+				4E6427DD6664B3B3C7479722C32BA15F /* CWQLinkingLabel.swift */,
+				BA9211135E61F2F9F508477AAD64EA20 /* Support Files */,
 			);
 			name = CWQLinkingLabel;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		43BFE8D26068D97F9033994933BD76DD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				299DAD9E77FDFD7BFA82A6B9115CF562 /* CWQLinkingLabel.modulemap */,
-				C7202C16BF2439094C5795CBB56CB5C3 /* CWQLinkingLabel.xcconfig */,
-				68D379355329776E10DEFAD7F5E67291 /* CWQLinkingLabel-dummy.m */,
-				D23AD9F69C92DDADC9BAFEE7F52C6A2B /* CWQLinkingLabel-prefix.pch */,
-				94D2CC28B97F686E69751ADD25AAEC00 /* CWQLinkingLabel-umbrella.h */,
-				BC81CBF449EE906244FC9057EDC3FDCC /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CWQLinkingLabel";
 			sourceTree = "<group>";
 		};
 		538557B97EA53323D1A4CBA3947715D4 /* Pods-CWQLinkingLabel_Example */ = {
@@ -158,9 +144,23 @@
 		9CAF73261B42E30C5019EFF70AC9944A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4278E162E9823C640CE0B4B08237AB25 /* CWQLinkingLabel */,
+				395FB3EF63A57B4C6EC8621B9F745DB6 /* CWQLinkingLabel */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BA9211135E61F2F9F508477AAD64EA20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C744EFB4E7635378A3783E195D3AB093 /* CWQLinkingLabel.modulemap */,
+				81425C8EE9D35E0D8496BD2226B20D5B /* CWQLinkingLabel.xcconfig */,
+				5C9194391305DEC9993CE99F9CCE8B7E /* CWQLinkingLabel-dummy.m */,
+				307CFEED5D89D8940383ACA4DEEE4CCA /* CWQLinkingLabel-prefix.pch */,
+				53940A8395DDC67580FD8F52A1765B85 /* CWQLinkingLabel-umbrella.h */,
+				A666DCFCDD5D6F90C6128670B7717AE8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CWQLinkingLabel";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -240,7 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F2A02A102413C082584480D3B87BE7 /* Build configuration list for PBXNativeTarget "CWQLinkingLabel" */;
 			buildPhases = (
-				6B0351D1B932D9E13BD41B02B0D7D2E0 /* Sources */,
+				636F63963FBAB769BF8F8D4F45E30015 /* Sources */,
 				3923A866D40111C76BB15CDA2D4E739C /* Frameworks */,
 				39DF8639F0AAB638F09DE77273B464A1 /* Headers */,
 			);
@@ -317,12 +317,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B0351D1B932D9E13BD41B02B0D7D2E0 /* Sources */ = {
+		636F63963FBAB769BF8F8D4F45E30015 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE50E7B7219C9A045E174F68BB85FCD1 /* CWQLinkingLabel-dummy.m in Sources */,
-				4793A423F1243FBA040DFCF1DC855433 /* ReplaceMe.swift in Sources */,
+				4A52B213D81F7ED542118EC74191FE62 /* CWQLinkingLabel-dummy.m in Sources */,
+				3E45D6F6FFC11B7A80CE5E70BDD5CF21 /* CWQLinkingLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +394,7 @@
 		};
 		4EC9593C0129CDAE0460F6DD17DA9C85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7202C16BF2439094C5795CBB56CB5C3 /* CWQLinkingLabel.xcconfig */;
+			baseConfigurationReference = 81425C8EE9D35E0D8496BD2226B20D5B /* CWQLinkingLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -465,7 +465,7 @@
 		};
 		6AFE1F4F87FFFA897AE41DC55BBFF6B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7202C16BF2439094C5795CBB56CB5C3 /* CWQLinkingLabel.xcconfig */;
+			baseConfigurationReference = 81425C8EE9D35E0D8496BD2226B20D5B /* CWQLinkingLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
